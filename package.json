@@ -17,7 +17,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "main": "public/main.js",
+  "main": "public/electron.js",
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -42,7 +42,7 @@
     "appId": "com.example.nirmalindustries",
     "files": [
       "dist/**/*",
-      "./public/main.js"
+      "./public/electron.js"
     ],
     "directories": {
       "buildResources": "assets"
